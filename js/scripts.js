@@ -19,6 +19,7 @@ Pet.prototype.Description = function(){
       var name = ($("#name").val());
       var species = ($("#species").val());
       var breed = ($("#breed").val());
+      //breed
       var age = ($("#age").val());
       var hair = ($("#hair").val());
       var sex = ($("#sex").val());
