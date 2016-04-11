@@ -1,21 +1,16 @@
+//business
+function Pet(name, species, breed, age, hair, sex){
+  this.name = name;
+  this.species = species;
+  this.breed = breed;
+  this.age = age;
+  this.hair = hair;
+  this.sex = sex;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Pet.prototype.Description = function(){
+  return "This is one of our " + this.species + "s, " + this.name + ", he is a " + this.sex +  " " + this.breed + " with " + this.hair + " hair. " + this.name + " is " + this.age + " years old."
+}
 
 // user logic
   $(document).ready(function(){
