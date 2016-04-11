@@ -19,6 +19,7 @@ Pet.prototype.Description = function(){
       var name = ($("#name").val());
       var species = ($("#species").val());
       var breed = ($("#breed").val());
+// yet another conflict memo
       var age = ($("#age").val());
       var hair = ($("#hair").val());
       var sex = ($("#sex").val());
@@ -27,7 +28,7 @@ Pet.prototype.Description = function(){
     })
   })
 
-
+// another comment
 //test comment here from pair1
 //test comment 2
 // test comment 3 from pair1
